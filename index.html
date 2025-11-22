@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <p class="message">Product added to Cart</p> -->
+        <header class="header">
+            <div class="header_container container">
+                <div class="header_left">
+                    <select name="" id="select_category">
+                        <option value="" selected disabled>
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            BROWSE CATEGORIES
+                        </option>
+                        <option value="casualShirts">Casual Shirts</option>
+                        <option value="formalShirts">Formal Shirts</option>
+                        <option value="tShirts">T-Shirts</option>
+                        <option value="pants">Pants</option>
+                        <option value="jeans">Jeans</option>
+                        <option value="hoodie">Hoodie</option>
+                    </select>
+
+                    <nav class="nav">
+                        <ul class="nav_list">
+                            <li class="nav_item"><a href="" class="nav_link">HOME</a></li>
+                            <li class="nav_item"><a href="#SHOPE" class="nav_link" >SHOPE</a></li>
+                            <li class="nav_item"><a href="#BEST" class="nav_link">BEST</a></li>
+                            <li class="nav_item"><a href="#US" class="nav_link" >ABOUT US</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="header_right">
+
+                    <span class="burger_menu">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+
+                    <div class="cart_icon">
+                        <p class="cart_items__quantity">0</p>
+                        <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.764648 1.41406C0.811372 1.27992 0.947877 1.22289 1.0625 1.26367L1.45898 1.4043C2.2848 1.69847 2.92659 1.92853 3.41992 2.17383C3.92993 2.42745 4.30521 2.7088 4.58203 3.11914C4.85878 3.52952 4.98999 3.99919 5.05371 4.5957C5.08228 4.86333 5.0979 5.16856 5.10645 5.51855L5.12402 6.25H19.8535C20.9761 6.25 21.9823 6.25141 22.7803 6.3418C23.1772 6.38676 23.4873 6.45023 23.7148 6.53125C23.9477 6.61416 24.0306 6.69222 24.0537 6.72266V6.72363C24.1883 6.90118 24.2786 7.16906 24.2422 7.7666C24.2049 8.37944 24.0465 9.18914 23.8145 10.3672L23.1572 13.6006C22.9462 14.638 22.7998 15.3503 22.623 15.8818C22.4525 16.3944 22.2796 16.653 22.0664 16.8291C21.8543 17.0042 21.5727 17.1223 21.0469 17.1875C20.4995 17.2554 19.7833 17.2568 18.7373 17.2568H11.7598C9.90247 17.2568 8.58986 17.2552 7.5957 17.1123C6.62856 16.9733 6.07298 16.7135 5.66309 16.2754H5.66211C5.20464 15.7861 4.95802 15.2976 4.81641 14.46C4.66572 13.5685 4.64258 12.3326 4.64258 10.3535V6.88477C4.64258 5.91501 4.64239 5.20742 4.58301 4.65137C4.52427 4.10152 4.40929 3.72505 4.19629 3.40918C3.98357 3.09377 3.68654 2.85904 3.21777 2.62598C2.74346 2.39016 2.1157 2.16606 1.25488 1.85938L0.911133 1.7373C0.791817 1.69464 0.716517 1.55279 0.764648 1.41406Z"
+                                stroke="white" stroke-width="1.5" />
+                            <path
+                                d="M7.18216 21.5C8.27218 21.5 9.15582 22.3955 9.15582 23.5C9.15582 24.6045 8.27218 25.4999 7.18216 25.4999C6.09213 25.4999 5.2085 24.6045 5.2085 23.5C5.2085 22.3955 6.09213 21.5 7.18216 21.5Z"
+                                fill="white" />
+                            <path
+                                d="M19.0239 22.25C19.6904 22.25 20.2476 22.8002 20.2476 23.5C20.2475 24.1997 19.6904 24.75 19.0239 24.75C18.3575 24.75 17.8003 24.1997 17.8003 23.5C17.8003 22.8002 18.3575 22.25 19.0239 22.25Z"
+                                fill="white" stroke="white" stroke-width="1.5" />
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div class="cart">
+                    <div class="cart_top">
+                        <p class="total_price">Total Price <span class="total_price_value">0</span> $</p>
+                    </div>
+                    <div class="cart_container"></div>
+                </div>
+
+            </div>
+
+
+        </header>
+
+        <main>
+            <section class="section1">
+                <div class="container">
+                    <div class="section1_item">
+                        <p class="section1_text1">SUMMER SALE 50% OFF</p>
+                        <h2 class="section1_title">Design For Beauty</h2>
+                        <p class="section1_text2">You Can Have Anything You Want In Life You Dress For It. </p>
+                        <button class="section1_btn">All Collection</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section2" id="BEST">
+                <div class="section2_conatiner container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/slider/slider_img1.jpeg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img2.jpeg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img3.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img4.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img5.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img6.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img7.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img8.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img9.jpg" alt=""></div>
+                            <div class="swiper-slide"><img src="images/slider/slider_img10.jpg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section3 container" id="SHOPE">
+                <div class="section3_top">
+                    <h2 class="section3_title">Our Production</h2>
+                    <ul class="category_list">
+                        <li class="category_item active" data-category="all">All</li>
+                        <li class="category_item" data-category="casualShirts">Casual Shirts</li>
+                        <li class="category_item" data-category="formalShirts">Formal Shirts</li>
+                        <li class="category_item" data-category="tShirts">T-Shirts</li>
+                        <li class="category_item" data-category="pants">Pants</li>
+                        <li class="category_item" data-category="jeans">Jeans</li>
+                        <li class="category_item" data-category="hoodie">Hoodie</li>
+                    </ul>
+                </div>
+                <div class="section3_body" ></div>
+                <button class="section3_btn">Load More</button>
+            </section>
+        </main>
+
+        <footer class="footer" id="US">
+            <div class="footer_container container">
+                <div class="footer_item">
+                    <h2 class="footer_title">About Shop</h2>
+                    <p class="footer_text">Lorem Is Dolor Sit Amet,Consectetur Adipisicing Elit. Read More </p>
+                    <p class="footer_text">E. Hello@Uxper.Co</p>
+                    <p class="footer_text">T. (91) 345 454 54 22</p>
+                </div>
+                <ul class="footer_list">
+                    <li>
+                        <h2 class="footer_title">Company</h2>
+                    </li>
+                    <li><a href="" class="footer_link">About Us</a></li>
+                    <li><a href="" class="footer_link">Careers</a></li>
+                    <li><a href="" class="footer_link">Store Locator</a></li>
+                    <li><a href="" class="footer_link">Contact Us</a></li>
+                </ul>
+                <ul class="footer_list">
+                    <li>
+                        <h2 class="footer_title">Customer Care</h2>
+                    </li>
+                    <li><a href="" class="footer_link">Size Guide</a></li>
+                    <li><a href="" class="footer_link">Help & FAQs</a></li>
+                    <li><a href="" class="footer_link">Return My Order</a></li>
+                    <li><a href="" class="footer_link">Refer A Friend</a></li>
+                </ul>
+                <ul class="footer_list">
+                    <li>
+                        <h2 class="footer_title">Terms & Policies</h2>
+                    </li>
+                    <li><a href="" class="footer_link">Duties & Taxes</a></li>
+                    <li><a href="" class="footer_link">Shipping Info</a></li>
+                    <li><a href="" class="footer_link">Privacy Policy</a></li>
+                    <li><a href="" class="footer_link">Terms Conditions</a></li>
+                </ul>
+                <ul class="footer_list">
+                    <li>
+                        <h2 class="footer_title">Follow Us</h2>
+                    </li>
+                    <li><a href="" class="footer_link">Instagram</a></li>
+                    <li><a href="" class="footer_link">Facebook</a></li>
+                    <li><a href="" class="footer_link">Twitter</a></li>
+                    <li><a href="" class="footer_link">Threads</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
