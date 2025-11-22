@@ -89,9 +89,11 @@
         gap: 5px;
     }
 
+ 
     .product {
         padding: 10px;
         gap: 10px;
+        width: 99%;
     }
 
     
@@ -140,3 +142,4 @@
     }
 
 }
+
