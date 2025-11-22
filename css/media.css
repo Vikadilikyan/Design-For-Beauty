@@ -88,19 +88,18 @@
         grid-auto-rows: auto;
         gap: 13px;
     }
-
  
-   .product1 {
-    width: 106%;
-    height: 336px;
-    overflow: hidden;
-}
-    
-        .product_img {
-            width: 100%;
-            height: auto;
-            height: 100%;
-        }
+
+          .product {
+        padding: 10px;
+        gap: 10px;
+        width: 103%;
+    }
+           .product_img {
+        width: 100%;
+        height: auto;
+        height: 100%;
+    }
     
 
 }
@@ -141,6 +140,7 @@
     }
 
 }
+
 
 
 
